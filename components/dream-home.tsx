@@ -12,7 +12,7 @@ const DreamHome: React.FC = () => {
         textAlign="center"
         marginX="auto"
       >
-        All the more reasons to get your dream home interiors now
+        All the more reasons to get your home staged now
       </Heading>
       <Flex
         width="90%"

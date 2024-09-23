@@ -39,10 +39,10 @@ const CreativeDirector: React.FC = () => {
             borderWidth="6px"
           >
             <Text fontWeight="medium" fontSize="22px">
-              Simme john
+              Abhinoor Grewal
             </Text>
             <Text textTransform="uppercase" color="orange.500">
-              Director
+              Founder
             </Text>
           </Flex>
         </Box>

@@ -25,12 +25,9 @@ const About: React.FC = () => {
           About us
         </Heading>
         <Text fontSize="md" mb="20px" alignSelf="flex-start" textAlign="left">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s.
+        Welcome to Stage and Style by Noor, your ultimate destination for curated fashion that brings together the elegance of 
+        classic styles and the vibrancy of modern trends. Founded by Noor, a passionate designer with an eye for detail, we believe 
+        in crafting timeless pieces that empower individuals to express their unique style on any occasion.
         </Text>
         <Button>Learn More</Button>
       </Flex>
