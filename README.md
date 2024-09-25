@@ -109,4 +109,4 @@ Check out the [contributing](./CONTRIBUTING.md) page to see the best places to f
 Released in 2020.
 This project is under the [MIT license](./LICENSE).
 
-Made with love by [RafaelGoulartB](https://github.com/RafaelGoulartB) 🚀
+Made with love by [](https://github.com/RafaelGoulartB) 🚀
