@@ -18,27 +18,27 @@ const OurProject: React.FC = () => {
         px={['8', '8', '8', '24', '24']}
       >
         <Image
-          src="/grid/1.png"
+          src="/grid/1.jpg"
           gridColumn={['1 / 2', '1 / 3', 'auto', 'auto', 'auto']}
         />
         <Image
-          src="/grid/2.png"
+          src="/grid/2.jpg"
           gridColumn={['1 / 2', '2 / 4', 'auto', 'auto', 'auto']}
         />
         <Image
-          src="/grid/3.png"
+          src="/grid/3.jpg"
           gridColumn={['1 / 2', '1 / 3', 'auto', 'auto', 'auto']}
         />
         <Image
-          src="/grid/4.png"
+          src="/grid/4.jpeg"
           gridColumn={['1 / 2', '2 / 4', 'auto', 'auto', 'auto']}
         />
         <Image
-          src="/grid/5.png"
+          src="/grid/5.JPG"
           gridColumn={['1 / 2', '1 / 3', 'auto', 'auto', 'auto']}
         />
         <Image
-          src="/grid/6.png"
+          src="/grid/6.JPG"
           gridColumn={['1 / 2', '2 / 4', 'auto', 'auto', 'auto']}
         />
       </Grid>

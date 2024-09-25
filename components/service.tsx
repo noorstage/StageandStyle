@@ -42,7 +42,7 @@ const Service: React.FC = () => {
           >
             Our Professional Services
           </Heading>
-          <Heading
+          {/* <Heading
             as="h4"
             fontSize={['lg', 'lg', 'xl', 'xl', 'xl']}
             fontWeight="normal"
@@ -50,7 +50,7 @@ const Service: React.FC = () => {
             alignSelf="flex-start"
           >
             We Will Create Modern And First Class Intorior.
-          </Heading>
+          </Heading> */}
           <Text
             fontSize="sm"
             mb="20px"
@@ -58,15 +58,7 @@ const Service: React.FC = () => {
             textAlign="left"
             lineHeight="23px"
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make aa type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            At Stage and Style, we specialize in creating modern, first-class interiors that elevate the appeal of any home. Our team of experienced designers works closely with you to bring a fresh, sophisticated touch to every space, ensuring your home looks its best and stands out in the market. Whether it's staging for a sale or a personal refresh, we deliver results that inspire.
           </Text>
           <Button
             alignSelf="flex-start"

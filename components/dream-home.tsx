@@ -12,7 +12,7 @@ const DreamHome: React.FC = () => {
         textAlign="center"
         marginX="auto"
       >
-        All the more reasons to get your home staged now
+        All the more reasons to stage your home and unlock its full potential now.
       </Heading>
       <Flex
         width="90%"
@@ -36,10 +36,9 @@ const DreamHome: React.FC = () => {
             mr="18px"
           />
           <Flex flexDirection="column" fontSize="xl">
-            <Text fontWeight="bold">Free online consultation</Text>
+            <Text fontWeight="bold">Free Online Demo</Text>
             <Text fontSize="sm">
-              Talk to our designers online and start planning your interiors
-              from the comfort of your home.
+            Connect with our staging experts online and start transforming your home with a personalized staging plan, all from the comfort of your own space.
             </Text>
           </Flex>
         </Flex>
@@ -57,10 +56,9 @@ const DreamHome: React.FC = () => {
             mr="18px"
           />
           <Flex flexDirection="column" fontSize="xl">
-            <Text fontWeight="bold">Pay just 5% to book</Text>
+            <Text fontWeight="bold">Get 10% Off on Your First Order</Text>
             <Text fontSize="sm">
-              We’ve dropped our booking fees. Now book your projects by paying
-              just 5% instead 10%.
+            Enjoy a 10% discount on your first home staging service. Offer valid for bookings made before October.
             </Text>
           </Flex>
         </Flex>
@@ -78,7 +76,7 @@ const DreamHome: React.FC = () => {
             mr="18px"
           />
           <Flex flexDirection="column" fontSize="xl">
-            <Text fontWeight="bold">Hassle-free cancellation</Text>
+            <Text fontWeight="bold">Pay just 5% to book</Text>
             <Text fontSize="sm">
               Get 100% refund on cancellations done within 15 days of booking.
               Valid till 30th June, 2020.

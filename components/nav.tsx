@@ -74,12 +74,12 @@ const Nav = props => {
         <MenuItems>Gallery</MenuItems>
         <MenuItems>Blog</MenuItems>
         <MenuItems>Contact</MenuItems>
-        <Stack spacing={0} direction="row" align="center" marginLeft={20} >
+        {/* <Stack spacing={0} direction="row" align="center" marginLeft={20} >
           <Button variantColor="yellow">Create an account</Button>
           <Button variantColor="yellow" variant="ghost">
             sign in
           </Button>
-        </Stack>
+        </Stack> */}
        
       </Box>
     </Flex>

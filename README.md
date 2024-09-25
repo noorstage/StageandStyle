@@ -1,4 +1,4 @@
-<h1 align="center">Interior Home Design</h1>
+<h1 align="center">Home Staging</h1>
 
 <p align="center">	
    <a href="https://www.linkedin.com/in/rafael-goulartb/">

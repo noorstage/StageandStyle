@@ -19,11 +19,11 @@ const Footer: React.FC = () => {
         pl={['8', '8', '8', '24', '24']}
       >
         <Logo />
-        <Text fontSize="sm" mt="4" textAlign="left" lineHeight="22px">
+        {/* <Text fontSize="sm" mt="4" textAlign="left" lineHeight="22px">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s.
-        </Text>
+        </Text> */}
         <Flex
           flexDirection="row"
           justifyContent="space-between"
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
         </Flex>
       </Flex>
 
-      <Flex
+      {/* <Flex
         flexDirection="column"
         alignItems="flex-start"
         gridColumn={['1 / 7', '1 / 7', '1 / 7', '3 / 4', '3 / 4']}
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
         <Text mb="6px">My Account</Text>
         <Text mb="6px">Shopping Cart</Text>
         <Text>Our Shop</Text>
-      </Flex>
+      </Flex> */}
 
       <Flex
         flexDirection="column"
@@ -65,9 +65,9 @@ const Footer: React.FC = () => {
         <Text color="orange.500" fontWeight="bold" fontSize="20px" mb="8px">
           Contact Us
         </Text>
-        <Text mb="6px">Address: C-308 New Delhi</Text>
-        <Text mb="6px">Phone: +91 9876543210</Text>
-        <Text>Email: info@colorlib.com</Text>
+        <Text mb="6px">Address: Niagara Falls Ontario Canada</Text>
+        <Text mb="6px">Phone: +1(705)465-8787</Text>
+        <Text>Email: info@thestageandstyle.com</Text>
       </Flex>
 
       <Flex
@@ -77,13 +77,13 @@ const Footer: React.FC = () => {
         paddingX={['8', '8', '8', '2', '2']}
         mt={['12', '12', '12', '0', '0']}
       >
-        <Text color="orange.500" fontWeight="bold" fontSize="20px" mb="8px">
+        {/* <Text color="orange.500" fontWeight="bold" fontSize="20px" mb="8px">
           Newsletter
         </Text>
         <Text mb="6px">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.{' '}
-        </Text>
+        </Text> */}
       </Flex>
     </Grid>
   )

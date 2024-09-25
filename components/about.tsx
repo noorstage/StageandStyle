@@ -25,9 +25,7 @@ const About: React.FC = () => {
           About us
         </Heading>
         <Text fontSize="md" mb="20px" alignSelf="flex-start" textAlign="left">
-        Welcome to Stage and Style by Noor, your ultimate destination for curated fashion that brings together the elegance of 
-        classic styles and the vibrancy of modern trends. Founded by Noor, a passionate designer with an eye for detail, we believe 
-        in crafting timeless pieces that empower individuals to express their unique style on any occasion.
+        At Stage and Style, we specialize in transforming houses into stunning, market-ready homes. Our expert team blends style and functionality to create spaces that captivate potential buyers, ensuring each home stands out. From modern minimalism to classic elegance, we stage homes to reflect their true potential and charm.
         </Text>
         <Button>Learn More</Button>
       </Flex>
