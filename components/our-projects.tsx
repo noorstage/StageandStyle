@@ -8,10 +8,10 @@ const OurProject: React.FC = () => {
       <Heading as="h3" textTransform="uppercase" mb="20px">
         Our Projects
       </Heading>
-      <Text fontSize="16px" mb="32px" maxW="460px" textAlign="center">
+      {/* <Text fontSize="16px" mb="32px" maxW="460px" textAlign="center">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry.
-      </Text>
+      </Text> */}
       <Grid
         gridTemplateColumns="repeat(3, 1fr)"
         gridGap="26px"
