@@ -31,6 +31,7 @@ const CreativeDirector: React.FC = () => {
               src="/directors/1.jpg" 
               width="275px" // Increased size by 30%
               height="auto" // Maintain aspect ratio
+              loading='eager'
             />
             <Flex
               position="absolute"
