@@ -68,11 +68,11 @@ const Nav = props => {
         textAlign="center"
         alignItems="center"
       >
-        <MenuItems>Home</MenuItems>
+        {/* <MenuItems>Home</MenuItems> */}
         <MenuItems>About</MenuItems>
         <MenuItems>Services</MenuItems>
         <MenuItems link="/gal">Gallery</MenuItems>
-        <MenuItems>Blog</MenuItems>
+        {/* <MenuItems>Blog</MenuItems> */}
         <MenuItems>Contact</MenuItems>
         {/* <Stack spacing={0} direction="row" align="center" marginLeft={20} >
           <Button variantColor="yellow">Create an account</Button>
