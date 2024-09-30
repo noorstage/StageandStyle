@@ -34,6 +34,7 @@ const DreamHome: React.FC = () => {
             width="50px"
             height="50px"
             mr="18px"
+            loading='eager'
           />
           <Flex flexDirection="column" fontSize="xl">
             <Text fontWeight="bold">Free Online Demo</Text>
@@ -54,6 +55,7 @@ const DreamHome: React.FC = () => {
             width="50px"
             height="50px"
             mr="18px"
+            loading='eager'
           />
           <Flex flexDirection="column" fontSize="xl">
             <Text fontWeight="bold">Get 10% Off on Your First Order</Text>
@@ -74,6 +76,7 @@ const DreamHome: React.FC = () => {
             width="50px"
             height="50px"
             mr="18px"
+            loading='eager'
           />
           <Flex flexDirection="column" fontSize="xl">
             <Text fontWeight="bold">Pay just 5% to book</Text>

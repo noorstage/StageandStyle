@@ -23,6 +23,7 @@ const GalleryPage: React.FC = () => {
           width="500px"    // Set fixed width
           height="500px"   // Set fixed height
           objectFit="cover"  // Ensure image fits box without distortion
+          loading='eager'
         />
         {/* Image 2 */}
         <Image
@@ -30,6 +31,7 @@ const GalleryPage: React.FC = () => {
           width="500px"
           height="500px"
           objectFit="cover"
+          loading='eager'
         />
         {/* Image 3 */}
         <Image
@@ -37,6 +39,7 @@ const GalleryPage: React.FC = () => {
           width="500px"
           height="500px"
           objectFit="cover"
+          loading='eager'
         />
         {/* Image 4 */}
         <Image
@@ -44,6 +47,7 @@ const GalleryPage: React.FC = () => {
           width="500px"
           height="500px"
           objectFit="cover"
+          loading='eager'
         />
         {/* Image 5 */}
         <Image
@@ -51,6 +55,7 @@ const GalleryPage: React.FC = () => {
           width="500px"
           height="500px"
           objectFit="cover"
+          loading='eager'
         />
         {/* Image 6 */}
         <Image
@@ -58,6 +63,7 @@ const GalleryPage: React.FC = () => {
           width="500px"
           height="500px"
           objectFit="cover"
+          loading='eager'
         />
         {/* Image 7 */}
         <Image
@@ -65,6 +71,7 @@ const GalleryPage: React.FC = () => {
           width="500px"
           height="500px"
           objectFit="cover"
+          loading='eager'
         />
         {/* Image 8 */}
         <Image
@@ -72,6 +79,7 @@ const GalleryPage: React.FC = () => {
           width="500px"
           height="500px"
           objectFit="cover"
+          loading='eager'
         />
         {/* Image 9 */}
         <Image
@@ -79,6 +87,7 @@ const GalleryPage: React.FC = () => {
           width="500px"
           height="500px"
           objectFit="cover"
+          loading='eager'
         />
         {/* Image 10 */}
         <Image
@@ -86,6 +95,7 @@ const GalleryPage: React.FC = () => {
           width="500px"
           height="500px"
           objectFit="cover"
+          loading='eager'
         />
         {/* Image 11 */}
         <Image
@@ -93,6 +103,7 @@ const GalleryPage: React.FC = () => {
           width="500px"
           height="500px"
           objectFit="cover"
+          loading='eager'
         />
         {/* Image 12 */}
         <Image
@@ -100,6 +111,7 @@ const GalleryPage: React.FC = () => {
           width="500px"
           height="500px"
           objectFit="cover"
+          loading='eager'
         />
       </Grid>
     </Flex>

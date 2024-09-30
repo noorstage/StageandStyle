@@ -16,6 +16,7 @@ const Service: React.FC = () => {
         borderWidth="10px"
         borderStyle="solid"
         boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
+        loading='eager'
       />
       <Grid
         backgroundColor="orange.500"

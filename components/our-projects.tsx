@@ -20,26 +20,32 @@ const OurProject: React.FC = () => {
         <Image
           src="/grid/1.jpg"
           gridColumn={['1 / 2', '1 / 3', 'auto', 'auto', 'auto']}
+          loading='eager'
         />
         <Image
           src="/grid/2.jpg"
           gridColumn={['1 / 2', '2 / 4', 'auto', 'auto', 'auto']}
+          loading='eager'
         />
         <Image
           src="/grid/3.jpg"
           gridColumn={['1 / 2', '1 / 3', 'auto', 'auto', 'auto']}
+          loading='eager'
         />
         <Image
           src="/grid/4.jpeg"
           gridColumn={['1 / 2', '2 / 4', 'auto', 'auto', 'auto']}
+          loading='eager'
         />
         <Image
           src="/grid/5.JPG"
           gridColumn={['1 / 2', '1 / 3', 'auto', 'auto', 'auto']}
+          loading='eager'
         />
         <Image
           src="/grid/6.JPG"
           gridColumn={['1 / 2', '2 / 4', 'auto', 'auto', 'auto']}
+          loading='eager'
         />
       </Grid>
     </Flex>
