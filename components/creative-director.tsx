@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Flex, Text, Heading, Grid, Image, Box } from '@chakra-ui/core'
 
 const CreativeDirector: React.FC = () => {
@@ -22,35 +21,38 @@ const CreativeDirector: React.FC = () => {
         px={['8', '8', '8', '24', '24']}
       >
         <Box
-  position="relative"
-  gridColumn="1 / 4"
-  display="flex"
-  justifyContent="center"
->
-  <Box>
-    <Image src="/directors/2.png" />
-    <Flex
-      position="absolute"
-      bottom="-35px"
-      flexDirection="column"
-      alignItems="center"
-      justifyContent="center"
-      paddingY="6px"
-      width="80%"
-      backgroundColor="white"
-      borderColor="orange.500"
-      borderWidth="6px"
-    >
-      <Text fontWeight="medium" fontSize="22px">
-        Abhinoor Grewal
-      </Text>
-      <Text textTransform="uppercase" color="orange.500">
-        Founder
-      </Text>
-    </Flex>
-  </Box>
-</Box>
-
+          position="relative"
+          gridColumn="1 / 4"
+          display="flex"
+          justifyContent="center"
+        >
+          <Box>
+            <Image 
+              src="/directors/1.jpg" 
+              width="275px" // Increased size by 30%
+              height="auto" // Maintain aspect ratio
+            />
+            <Flex
+              position="absolute"
+              bottom="-35px"
+              flexDirection="column"
+              alignItems="center"
+              justifyContent="center"
+              paddingY="6px"
+              width="80%"
+              backgroundColor="white"
+              borderColor="orange.500"
+              borderWidth="6px"
+            >
+              <Text fontWeight="medium" fontSize="22px">
+                Abhinoor Grewal
+              </Text>
+              <Text textTransform="uppercase" color="orange.500">
+                Founder
+              </Text>
+            </Flex>
+          </Box>
+        </Box>
       </Grid>
     </Flex>
   )

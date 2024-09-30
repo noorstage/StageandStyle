@@ -71,7 +71,7 @@ const Nav = props => {
         <MenuItems>Home</MenuItems>
         <MenuItems>About</MenuItems>
         <MenuItems>Services</MenuItems>
-        <MenuItems>Gallery</MenuItems>
+        <MenuItems link="/gal">Gallery</MenuItems>
         <MenuItems>Blog</MenuItems>
         <MenuItems>Contact</MenuItems>
         {/* <Stack spacing={0} direction="row" align="center" marginLeft={20} >
