@@ -66,8 +66,8 @@ const Footer: React.FC = () => {
           Contact Us
         </Text>
         <Text mb="6px">Address: Niagara Falls Ontario Canada</Text>
-        <Text mb="6px">Phone: +1(705)465-8787</Text>
-        <Text>Email: info@thestageandstyle.com</Text>
+        <Text mb="6px">Phone: 365-476-8787</Text>
+        <Text>Email: stageandstyle08@gmail.com  </Text>
       </Flex>
 
       <Flex

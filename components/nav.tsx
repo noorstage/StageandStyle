@@ -70,7 +70,7 @@ const Nav = props => {
       >
         {/* <MenuItems>Home</MenuItems> */}
         <MenuItems>About</MenuItems>
-        <MenuItems>Services</MenuItems>
+        <MenuItems link="/Services">Services</MenuItems>
         <MenuItems link="/gal">Gallery</MenuItems>
         {/* <MenuItems>Blog</MenuItems> */}
         <MenuItems>Contact</MenuItems>
