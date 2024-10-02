@@ -19,7 +19,7 @@ const GalleryPage: React.FC = () => {
       >
         {/* Image 1 */}
         <Image
-          src="/gallery/2 (1).JPG"
+          src="/gallery/2 (1).jpg"
           width="500px"    // Set fixed width
           height="500px"   // Set fixed height
           objectFit="cover"  // Ensure image fits box without distortion
@@ -35,7 +35,7 @@ const GalleryPage: React.FC = () => {
         />
         {/* Image 3 */}
         <Image
-          src="/gallery/2 (3).JPG"
+          src="/gallery/2 (3).jpg"
           width="500px"
           height="500px"
           objectFit="cover"
@@ -75,7 +75,7 @@ const GalleryPage: React.FC = () => {
         />
         {/* Image 8 */}
         <Image
-          src="/gallery/2 (8).JPG"
+          src="/gallery/2 (8).jpg"
           width="500px"
           height="500px"
           objectFit="cover"
@@ -83,7 +83,7 @@ const GalleryPage: React.FC = () => {
         />
         {/* Image 9 */}
         <Image
-          src="/gallery/2 (9).JPG"
+          src="/gallery/2 (9).jpg"
           width="500px"
           height="500px"
           objectFit="cover"
@@ -91,7 +91,7 @@ const GalleryPage: React.FC = () => {
         />
         {/* Image 10 */}
         <Image
-          src="/gallery/2 (10).JPG"
+          src="/gallery/2 (10).jpg"
           width="500px"
           height="500px"
           objectFit="cover"
@@ -99,7 +99,7 @@ const GalleryPage: React.FC = () => {
         />
         {/* Image 11 */}
         <Image
-          src="/gallery/2 (11).JPG"
+          src="/gallery/2 (11).jpg"
           width="500px"
           height="500px"
           objectFit="cover"
@@ -107,7 +107,7 @@ const GalleryPage: React.FC = () => {
         />
         {/* Image 12 */}
         <Image
-          src="/gallery/2 (12).JPG"
+          src="/gallery/2 (12).jpg"
           width="500px"
           height="500px"
           objectFit="cover"
