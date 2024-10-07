@@ -231,7 +231,7 @@ const Services2: React.FC = () => {
           p={4}
         >
           <Image
-            src="/Servicesi/9.jpg" // Placeholder image
+            src="/Servicesi/9.JPG" // Placeholder image
             alt="Service 9"
             objectFit="cover"
             w="100%"
