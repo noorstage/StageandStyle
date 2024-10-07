@@ -63,7 +63,7 @@ const Nav: React.FC = (props) => {
         textAlign="center"
         alignItems="center"
       >
-        <MenuItems link="/_app">Home</MenuItems>
+        <MenuItems link="/">Home</MenuItems>
         <MenuItems>About</MenuItems>
         <MenuItems link="/Services">Services</MenuItems>
         <MenuItems link="/gal">Gallery</MenuItems>
