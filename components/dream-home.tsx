@@ -12,7 +12,7 @@ const DreamHome: React.FC = () => {
         textAlign="center"
         marginX="auto"
       >
-        All the more reasons to stage your home and unlock its full potential now.
+       Niagara Staging Company Offering Interior Decor & Home Furnishings
       </Heading>
       <Flex
         width="90%"

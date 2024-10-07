@@ -1,9 +1,9 @@
-import React from 'react'
-import { Box, Flex, Link, Button, Stack } from '@chakra-ui/core'
-import Logo from './logo'
+import React from 'react';
+import { Box, Flex, Link } from '@chakra-ui/core';
+import Logo from './logo';
 
 interface MenuItem {
-  link?: string
+  link?: string;
 }
 
 const MenuItems: React.FC<MenuItem> = ({ children, link }) => (
@@ -17,11 +17,11 @@ const MenuItems: React.FC<MenuItem> = ({ children, link }) => (
   >
     {children}
   </Link>
-)
+);
 
-const Nav = props => {
-  const [show, setShow] = React.useState(false)
-  const handleToggle = () => setShow(!show)
+const Nav: React.FC = (props) => {
+  const [show, setShow] = React.useState(false);
+  const handleToggle = () => setShow(!show);
 
   return (
     <Flex
@@ -57,33 +57,19 @@ const Nav = props => {
       </Box>
 
       <Box
-        display={[
-          show ? 'block' : 'none',
-          show ? 'block' : 'none',
-          'flex',
-          'flex'
-        ]}
+        display={[show ? 'block' : 'none', show ? 'block' : 'none', 'flex', 'flex']}
         width={['full', 'full', 'auto', 'auto']}
         marginTop={['20px', '20px', 'auto', 'auto']}
         textAlign="center"
         alignItems="center"
       >
-        {/* <MenuItems>Home</MenuItems> */}
         <MenuItems>About</MenuItems>
         <MenuItems link="/Services">Services</MenuItems>
         <MenuItems link="/gal">Gallery</MenuItems>
-        {/* <MenuItems>Blog</MenuItems> */}
         <MenuItems>Contact</MenuItems>
-        {/* <Stack spacing={0} direction="row" align="center" marginLeft={20} >
-          <Button variantColor="yellow">Create an account</Button>
-          <Button variantColor="yellow" variant="ghost">
-            sign in
-          </Button>
-        </Stack> */}
-       
       </Box>
     </Flex>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;

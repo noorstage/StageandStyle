@@ -65,7 +65,7 @@ const CreativeDirector: React.FC = () => {
               boxShadow="md"
             >
               <Text fontWeight="medium" fontSize="22px">
-                Abhinoor Grewal
+                Noor
               </Text>
               <Text textTransform="uppercase" color="orange.500">
                 Founder
