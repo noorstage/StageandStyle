@@ -28,7 +28,7 @@ const Nav: React.FC = (props) => {
       as="nav"
       position="fixed"
       top="0"
-      zIndex="999"
+      // zIndex="999"
       width="100%"
       align="center"
       justify="space-between"
