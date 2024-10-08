@@ -16,7 +16,7 @@ const Service: React.FC = () => {
         borderWidth="10px"
         borderStyle="solid"
         boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
-        loading='eager'
+        loading="eager"
       />
       <Grid
         backgroundColor="orange.500"
@@ -50,7 +50,7 @@ const Service: React.FC = () => {
             mb="20px"
             alignSelf="flex-start"
           >
-            We Will Create Modern And First Class Intorior.
+            We Will Create Modern And First Class Interiors.
           </Heading> */}
           <Text
             fontSize="sm"
@@ -59,17 +59,21 @@ const Service: React.FC = () => {
             textAlign="left"
             lineHeight="23px"
           >
-            At Stage and Style, we specialize in creating modern, first-class interiors that elevate the appeal of any home. Our team of experienced designers works closely with you to bring a fresh, sophisticated touch to every space, ensuring your home looks its best and stands out in the market. Whether it's staging for a sale or a personal refresh, we deliver results that inspire.
+            At Stage and Style, we specialize in creating modern, first-class interiors that elevate the appeal of any home. Our team of experienced designers works closely with you to bring a fresh, sophisticated touch to every space, ensuring your home looks its best and stands out in the market. Whether it's staging for a sale or a personal refresh, we deliver results that inspire.
           </Text>
-          <Button
-            alignSelf="flex-start"
-            variantColor="white"
-            backgroundColor="#fff"
-            color="orange.500"
-            width="fit-content"
-          >
-            Learn More
-          </Button>
+          
+          {/* Wrap the Button with an anchor tag */}
+          <a href="/Services">
+            <Button
+              alignSelf="flex-start"
+              variantColor="white"
+              backgroundColor="#fff"
+              color="orange.500"
+              width="fit-content"
+            >
+              Learn More
+            </Button>
+          </a>
         </Flex>
       </Grid>
     </Box>

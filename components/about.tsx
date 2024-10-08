@@ -1,6 +1,6 @@
-import React from 'react'
-import { Box, Flex, Heading, Text, Image, Grid } from '@chakra-ui/core'
-import Button from './button'
+import React from 'react';
+import { Box, Flex, Heading, Text, Image, Grid } from '@chakra-ui/core';
+import Button from './button';
 
 const About: React.FC = () => {
   return (
@@ -25,10 +25,15 @@ const About: React.FC = () => {
           About us
         </Heading>
         <Text fontSize="md" mb="20px" alignSelf="flex-start" textAlign="left">
-        At Stage and Style, we specialize in transforming houses into stunning, market-ready homes. Our expert team blends style and functionality to create spaces that captivate potential buyers, ensuring each home stands out. From modern minimalism to classic elegance, we stage homes to reflect their true potential and charm.
+          At Stage and Style, we specialize in transforming houses into stunning, market-ready homes. Our expert team blends style and functionality to create spaces that captivate potential buyers, ensuring each home stands out. From modern minimalism to classic elegance, we stage homes to reflect their true potential and charm.
         </Text>
-        <Button>Learn More</Button>
+
+        {/* Anchor link to Services page */}
+        <a href="/Services">
+          <Button>Learn More</Button> {/* You can use your existing Button component */}
+        </a>
       </Flex>
+
       <Box gridColumn="4 / 7">
         <Image
           src="/about-us-bg.png"
@@ -37,7 +42,7 @@ const About: React.FC = () => {
         />
       </Box>
     </Grid>
-  )
-}
+  );
+};
 
-export default About
+export default About;

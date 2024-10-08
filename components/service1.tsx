@@ -32,7 +32,11 @@ const About: React.FC = () => {
           ensuring each home stands out. From modern minimalism to classic elegance, 
           we stage homes to reflect their true potential and charm.
         </Text>
-        <Button>Contact Us</Button>
+
+        {/* Wrap the button with an anchor tag */}
+        <a href="/Contact">
+          <Button>Contact Us</Button>
+        </a>
       </Flex>
       
       <Box gridColumn="4 / 7">
