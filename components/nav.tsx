@@ -67,7 +67,7 @@ const Nav: React.FC = (props) => {
         <MenuItems>About</MenuItems>
         <MenuItems link="/Services">Services</MenuItems>
         <MenuItems link="/gal">Gallery</MenuItems>
-        <MenuItems link='/Contact'>Contact</MenuItems>
+        <MenuItems>Contact</MenuItems>
       </Box>
     </Flex>
   );
